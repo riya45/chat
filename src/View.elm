@@ -22,9 +22,8 @@ view model =
     , A.rel "stylesheet"
     ]
     []
-  , img [A.src "images/joan.png"]
-    []
-  , h1_ "Can We Talk!?"
+ 
+  , h1_ "Chat Window!!"
   , row_ [ displayErrors model ]
   , row_ [ inputControls model ]
   , row_ [ messageList model ]
